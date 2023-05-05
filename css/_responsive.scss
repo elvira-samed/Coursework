@@ -1,0 +1,309 @@
+
+@media (min-width: 400px) and (max-width: 890px){
+    #scrollToTop{
+        bottom: 18% !important;
+    }
+    .mini-chat{
+        right: 4% !important;
+    }
+}
+
+@media (min-width: 890px) and (max-width: 1200px){
+    #scrollToTop{
+        bottom: 4% !important;
+    }
+    .mini-chat{
+        right: 9% !important;
+    }
+}
+
+@media (max-width: 400px) {
+    .mini-chat{
+        display: none !important;
+    }
+    #chat{
+        display: none !important;
+    }
+    #scrollToTop{
+        display: none !important;
+    }
+}
+
+@media (min-width: 1200px) {
+.container {
+width: 84%;
+margin: auto;
+}
+.news-page-one {
+.left {
+display: block !important;
+}
+.sidebar {
+display: none !important;
+}
+.breadcrumb {
+.pages {
+display: flex;
+}
+}
+}
+ // flash sale start>>>>>>>>>>>>>
+ .flash-sale {
+    width: 100%;
+    height: 100%;
+    padding: 0 !important;
+}
+// flash sale finish>>>>>>>>>>>>>>>>
+// featured start>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+.featured {
+width: 100%;
+height: 100%;
+}
+// featured finish>>>>>>>>>>>>>>>>>>>>>
+
+// top brand start>>>>>>>>>>>>>>>>>>>>>>>>>>>
+#top-brands {
+width: 100%;
+height: 100%;
+
+}
+// top brands finish>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+}
+
+@media (max-width:768px){
+ #account{
+    .account-bottom {
+        .account-bot-left {
+            input{
+                width: 100%;       
+            }
+        }
+
+    }
+}
+}
+
+@media(max-width:576px) {
+
+    .description {
+        .description-menu {
+            display: none;
+        }
+    }
+
+    .hero-section {
+        width: 100%;
+        height: 100%;
+        text-align: center;
+
+        .hero-black {
+            span {
+                display: none;
+            }
+
+            .hero-span {
+                display: none;
+            }
+        }
+
+
+
+        .hero-text {
+            display: none;
+        }
+    }
+
+    .flash-sale, .top-rated {
+        width: 100%;
+        height: 100%;
+        .flash {
+            .flash-text {
+                display: none;
+            }
+        }
+    }
+
+}
+
+@media(min-width:576px) and (max-width:768px) {
+    .description {
+        .description-menu {
+            display: none;
+        }
+    }
+
+    #desc-text{
+        .desc-head-left{
+            a{
+                margin-top: 20px;
+            }
+        }
+
+    }
+}
+
+@media(min-width:992px) and (max-width:1200px) {
+    .description {
+        .description-menu {
+            ul {
+                li {
+                    a {
+                        font-size: 13px;
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+@media (max-width:1200px) {
+
+    //top rated start>>>>>>>>>>>.
+    .top-rated {
+        width: 100%;
+        height: 100%;
+    }
+    //top rated finish>>>>>>>>>>>
+
+
+    // blog posts start>>>>>>>>>
+    .blog-posts {
+        width: 100%;
+        height: 100%;
+    }
+    // blog posts finish>>>>>>>>>
+
+    // more departments start>>>>>>>>>>>>>>>>>>
+    .more-departments {
+        width: 100%;
+        height: 100%;
+    }
+    // more departments finish>>>>>>>>>>>>>>>>>>>>
+
+    // hero section start>>>>>>>>>>>>>>>>>>
+    .hero-section {
+        width: 100%;
+        height: 100%;
+        text-align: center;
+
+        .hero-black {
+            width: 100%;
+            height: 100%;
+
+            span {
+                display: none;
+            }
+
+            .hero-span {
+                display: none;
+            }
+        }
+
+        .hero-text {
+            display: none;
+        }
+
+
+
+
+    }
+    // hero section finish>>>>>>>>>>>>>>>>>>>>
+
+    // featured start>>>>>>>>>>>>>>>>>>>>>>>
+    .featured {
+        width: 100%;
+        height: 100%;
+    }
+    // featured finish>>>>>>>>>>>>>>>>>>>>>>
+
+    // top brands start>>>>>>>>>>>>>>>>>>>>>>
+    #top-brands {
+        width: 100%;
+        height: 100%;
+
+        .brands-text {
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            h5 {
+                font-size: 13px;
+            }
+
+            a {
+                display: none;
+
+            }
+        }
+
+    }
+    // top brands finish>>>>>>>>>>>>>>>>>>>>>>>>
+
+    // flash sale start>>>>>>>>>>>>>>>>>>
+    .flash-sale , .top-rated {
+        width: 100%;
+        height: 100%;
+
+        .flash {
+            .flash-text {
+                display: none !important;
+            }
+        }
+
+        .flash-img {
+            width: 100%;
+
+
+            img {
+                width: 100%;
+            }
+        }
+    }
+    // flash sale finish>>>>>>>>>>>>>
+
+
+    // popular start>>>>>>>>>>>>>>>>>>>
+    .popular {
+        .popular-box {
+            justify-content: center;
+        }
+    }
+    // popular finish>>>>>>>>>>>>>>>>>>>>
+
+
+
+
+}
+
+@media (min-width:556px) and (max-width:992px) {
+
+    // hero section start>>>>>>>>>>>>>>>>>>
+    .hero-section {
+        width: 100%;
+        height: 100%;
+        text-align: center;
+
+        .hero-black {
+            span {
+                display: none;
+            }
+
+            .hero-span {
+                display: none;
+            }
+        }
+
+
+
+        .hero-text {
+            display: none;
+        }
+    }
+    // hero section finish>>>>>>>>>>>>>>>>     
+
+}
+
